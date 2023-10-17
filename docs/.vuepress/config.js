@@ -10,57 +10,10 @@ export default defineUserConfig({
   description: '这是我的第一个 VuePress 站点',
   base:'/vuepress2/',
   theme: defaultTheme({
-    navbar: [
-      // 嵌套 Group - 最大深度为 2
-      {
-        text: '首页',
-        link: '/',
-      },
-      {
-        text: 'reference',
-        children: [
-          {
-            text: 'reference',
-            children: ['/reference/cli', '/reference/config'],
-          },
-        ],
-      },
-      // 控制元素何时被激活
-      {
-        text: 'Guide',
-        children: [
-          {
-            text: 'Guide',
-            link: '/guide/desc',
-            // 该元素将一直处于激活状态
-            // activeMatch: '/',
-          },
-          {
-            text: 'getting-started',
-            link: '/guide/getting-started',
-            // 该元素在当前路由路径是 /foo/ 开头时激活
-            // 支持正则表达式
-            // activeMatch: '^/foo/',
-          },
-        ],
-      },
-    ],
+    navbar: require('./nav/zh'),
      // 侧边栏对象
     // 不同子路径下的页面会使用不同的侧边栏
-    sidebar: {
-      '/guide/': [
-        {
-          text: 'Guide',
-          children: ['/guide/desc.md', '/guide/getting-started.md'],
-        },
-      ],
-      '/reference/': [
-        {
-          text: 'Reference',
-          children: ['/reference/cli.md', '/reference/config.md'],
-        },
-      ],
-    },
+    sidebar:require('./sidebar/zh'),
   }),
   
 

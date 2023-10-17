@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 heroImage: /logo.jpg
 actionText: 快速上手 →
 features:

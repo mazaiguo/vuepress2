@@ -690,63 +690,38 @@ html.dark .DocSearch {
 
    创建 `.github/workflows/docs.yml` 文件来配置工作流。
 
-::: details 点击展开配置样例
+官网的打包方式没有成功，好像是PNPM找不到版本，当前用的`"vuepress": "^2.0.0-beta.67",`而pnpm的版本是50，找不到匹配项目。改为deploy.sh方式来处理。
 
-```yml
-name: docs
+在根目录新建`deploy.sh`
 
-on:
-  # 每当 push 到 main 分支时触发部署
-  push:
-    branches: [main]
-  # 手动触发部署
-  workflow_dispatch:
+```sh
+#!/usr/bin/env sh
+# 确保脚本抛出遇到的错误
+set -e
 
-jobs:
-  docs:
-    runs-on: ubuntu-latest
+# 生成静态文件
+yarn docs:build
 
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
-          fetch-depth: 0
+# 进入生成的文件夹
+cd docs/.vuepress/dist
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          # 选择要使用的 pnpm 版本
-          version: 8
-          # 使用 pnpm 安装依赖
-          run_install: true
+# 如果是发布到自定义域名
+# echo 'www.example.com' > CNAME
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          # 选择要使用的 node 版本
-          node-version: 18
-          # 缓存 pnpm 依赖
-          cache: pnpm
+git init
+git add -A
 
-      # 运行构建脚本
-      - name: Build VuePress site
-        run: pnpm docs:build
+git commit -m "your commit"
+# 如果发布到 https://<USERNAME>.github.io
+#git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
-      # 查看 workflow 的文档来获取更多信息
-      # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          # 部署到 gh-pages 分支
-          target_branch: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
-          build_dir: docs/.vuepress/dist
-        env:
-          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# 如果发布到 https://<USERNAME>.github.io/<REPO>
+ git push -f git@github.com:mazaiguo/vuepress2.git master:gh-pages
+
+cd -
 ```
 
-:::
+在gitbash中运行./deploy.sh命令
 
 #### Windows[](https://pnpm.io/zh/installation#windows)
 
