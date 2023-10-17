@@ -84,7 +84,7 @@
 
 ### 设置配色
 
-<img src="../../../_media/PyCharm-monokai.jpg" alt="avator" style="zoom: 50%;" />
+![](https://raw.githubusercontent.com/mazaiguo/blogimg/main/20231017-20231017181730.png)
 
 ```html
 <script>
