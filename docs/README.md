@@ -1,6 +1,6 @@
 ---
-home: false
-heroImage: /logo.jpg
+home: true
+heroImage: /images/costoms.png
 actionText: 快速上手 →
 features:
 - title: 简洁至上
@@ -16,5 +16,6 @@ actions:
 
   - text: Config 🛠
     link: ./reference/cli.html
-footer: MIT Licensed | Copyright © 2018-present JerryMa
 ---
+
+<div class="my-footer">MIT Licensed | Copyright © 2018-present <a target="_blank" href="https://github.com/mazaiguo/vuepress2">JerryMa</a></div>
