@@ -748,7 +748,30 @@ jobs:
 
 :::
 
+#### Windows[](https://pnpm.io/zh/installation#windows)
 
+使用 PowerShell：
+
+```powershell
+iwr https://get.pnpm.io/install.ps1 -useb | iex
+```
+
+### 使用 npm 安装[](https://pnpm.io/zh/installation#使用-npm-安装)
+
+我们提供了两个 pnpm CLI 包， `pnpm` 和 `@pnpm/exe`。
+
+- [`pnpm`](https://www.npmjs.com/package/pnpm) 是 pnpm 的普通版本，需要 Node.js 运行。
+- [`@pnpm/exe`](https://www.npmjs.com/package/@pnpm/exe) 与 Node.js 一起打包成可执行文件，因此它可以在没有安装 Node.js 的系统上使用。
+
+```sh
+npm install -g pnpm
+```
+
+或者
+
+```sh
+npm install -g @pnpm/exe
+```
 
 ### GitLab Pages
 
@@ -795,3 +818,4 @@ pages:
 ```
 
 :::
+

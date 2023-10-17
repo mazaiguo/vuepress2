@@ -8,6 +8,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '你好， VuePress ！',
   description: '这是我的第一个 VuePress 站点',
+  base:'/vuepress2/',
   theme: defaultTheme({
     navbar: [
       // 嵌套 Group - 最大深度为 2
