@@ -244,3 +244,12 @@
   .my-footer {
     text-align: center;
   }
+
+
+div[class*=language-].line-numbers-mode .line-numbers {
+  padding-top: 2.5rem
+}
+
+div[class*=language-] {
+  padding-top: 0.2rem;
+}
