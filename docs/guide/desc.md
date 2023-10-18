@@ -794,3 +794,89 @@ pages:
 
 :::
 
+## 增加copyright
+
+* 新增`docs\.vuepress\layouts\Layout.vue`
+
+```vue
+<script setup>
+import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
+</script>
+
+<template>
+  <ParentLayout>
+    <template #page-bottom>
+      <div class="my-footer">MIT Licensed | Copyright © 2018-present <a target="_blank" href="https://github.com/mazaiguo/vuepress2">JerryMa</a></div>
+    </template>
+    <template #page-top>
+      <div class="my-page-top">page-top</div>
+    </template>
+    <template #page-content-top>
+      <div class="my-page-content-top">page-content-top</div>
+    </template>
+    <template #page-content-bottom>
+      <div class="my-page-content-bottom">page-content-bottom</div>
+    </template>
+    <!-- <template #page>
+      <div class="my-page">page-------------</div>
+    </template> -->
+    <!-- <template #navbar>
+      <div class="my-navbar">navbar</div>
+    </template> -->
+    <template #navbar-before>
+      <div class="my-navbar-before">navbar-beforee-------------</div>
+    </template>
+    <template #navbar-after>
+      <div class="my-navbar-after">navbar-after-------------</div>
+    </template>
+    <!-- <template #sidebar>
+      <div class="my-sidebar">sidebar-------------</div>
+    </template> -->
+    <template #sidebar-top>
+      <div class="my-sidebar-top">sidebar-top-------------</div>
+    </template>
+    <template #sidebar-bottom>
+      <div class="my-sidebar-bottom">sidebar-bottom-------------</div>
+    </template>
+  </ParentLayout>
+</template>
+
+<style lang="css">
+.my-footer {
+  text-align: center;
+}
+</style>
+```
+
+page-bottom的插槽放置copyright的信息；page、sidebar、navbar被占用了，设置插槽会影响显示，各位大佬如果知道怎么搞可以告知。
+
+* `docs\.vuepress\client.js`,在文件中增加layout的引用
+
+```vue
+import { defineClientConfig } from '@vuepress/client'
+import * as Icons from '@element-plus/icons-vue'
+import ElementPlus from 'element-plus'
+import 'element-plus/theme-chalk/index.css'
+import Layout from './layouts/Layout.vue'
+//加载elementplus
+export default defineClientConfig({
+  enhance({ app, router, siteData }) {
+
+    app.use(ElementPlus)
+    // icon
+    for (const icon in Icons) {
+      // eslint-disable-next-line import/namespace
+      app.component(icon, Icons[icon])
+    }
+
+  },
+  setup() {},
+  rootComponents: [],
+  layouts: {
+    Layout,
+  },
+})
+```
+
+
+
