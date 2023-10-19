@@ -70,9 +70,9 @@ module.exports = {
             ]
         }
     ],
-    '/Tool/Gitlab/': [
+    '/Tool/GitLab/': [
         {
-            text: 'Gitlab⛏️',
+            text: 'GitLab⛏️',
             children: [
                 { text: '主页🗒️', link: '/' }, '创建项目'
             ]

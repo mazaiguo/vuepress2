@@ -71,7 +71,7 @@
     --code-bg-color: #282c34;
     --code-hl-bg-color: rgba(0, 0, 0, 0.66);
     --code-ln-color: #9e9e9e;
-    --code-ln-wrapper-width: 3.5rem;
+    --code-ln-wrapper-width: 2rem;
   
     // font vars
     --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -164,8 +164,7 @@
     background-color: #fc625d;
     border-radius: 16px;
     box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-    content: attr(data-ext);
-    color: aqua;    
+    content: attr(data-ext); 
     font-family: 'Courier New', Courier, monospace;
 }
 

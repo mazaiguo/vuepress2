@@ -32,8 +32,8 @@ module.exports =
                     link:'/Tool/Git/',
                 },
                 {
-                    text: 'Gitlab⛏️',
-                    link:'/Tool/Gitlab/',
+                    text: 'GitLab⛏️',
+                    link:'/Tool/GitLab/',
                 },
                 {
                     text: 'PC⚔️',
