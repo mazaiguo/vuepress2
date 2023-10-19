@@ -4,6 +4,7 @@ module.exports = {
             text: 'ARX',
             children: [
                 { text: '主页🗒️', link: '/' },
+                { text: 'Code📔', link: '/Code/' },
                 { text: 'ARX📖', link: '/Code/ARX/' },
                 'CustomEntity Trim Extend.md',
                 'ARX保存相关问题.md',
@@ -17,20 +18,30 @@ module.exports = {
     '/Code/JAVA/': [
         {
             text: 'JAVA',
-            children: [{ text: 'JAVA📘', link: '/Code/JAVA/' }, '问题.md'],
+            children: [
+                { text: '主页🗒️', link: '/' },
+                { text: 'Code📔', link: '/Code/' },
+                { text: 'JAVA📘', link: '/Code/JAVA/' },
+                '问题.md'],
         },
     ],
     '/Code/Programminglanguage/Python/': [
         {
             text: 'Python',
-            children: ['/Code/Programminglanguage/Python/', 'question.md'],
+            children: [
+                { text: '主页🗒️', link: '/' },
+                { text: 'Code📔', link: '/Code/' },
+                { text: 'Python📜', link: '/Code/Programminglanguage/Python/' },
+                'question',
+                'utils'
+            ],
         },
     ],
     '/Code/UI/VUE/': [
         {
             text: 'VUE',
             children: [
-                { text: '主页🗒️', link: '/' },
+                { text: 'Code📔', link: '/Code/' },
                 { text: 'VUE📰', link: '/Code/UI/VUE/' },
                 'MFC使用cef',
                 'mockjs',
@@ -47,6 +58,10 @@ module.exports = {
             text: 'CPP',
             children: [
                 { text: '主页🗒️', link: '/' },
+                { text: 'Code📔', link: '/Code/' },
+                {
+                    text: 'C++📚', link: '/Code/CPP/'
+                },
                 'libcurl post json乱码',
                 'VC获取时间',
                 'Visual Studio 调试器中的CPP格式说明符',
@@ -59,6 +74,8 @@ module.exports = {
         {
             text: 'Git🔨',
             children: [
+                { text: '主页🗒️', link: '/' },
+                { text: 'Tool🛠️', link: '/Tool/' },
                 'Git问题',
                 'ngrok令牌',
                 'SSH创建及提取',
@@ -75,7 +92,9 @@ module.exports = {
         {
             text: 'GitLab⛏️',
             children: [
-                { text: '主页🗒️', link: '/' }, '创建项目'
+                { text: '主页🗒️', link: '/' },
+                { text: 'Tool🛠️', link: '/Tool/' },
+                '创建项目'
             ]
         }
     ],
@@ -83,7 +102,9 @@ module.exports = {
         {
             text: 'docsify安装🛡️',
             children: [
-                { text: '主页🗒️', link: '/' }, 'docsify安装'
+                { text: '主页🗒️', link: '/' },
+                { text: 'Tool🛠️', link: '/Tool/' },
+                'docsify安装'
             ]
         }
     ],
@@ -91,14 +112,18 @@ module.exports = {
         {
             text: 'PC⚔️',
             children: [
-                { text: '主页🗒️', link: '/' }, '右键菜单'
+                { text: '主页🗒️', link: '/' },
+                { text: 'Tool🛠️', link: '/Tool/' },
+                '右键菜单'
             ]
         }
     ],
     '/guide/': [
         {
             text: 'Guide',
-            children: ['/guide/desc.md', '/guide/getting-started.md'],
+            children: [{ text: '主页🗒️', link: '/' },
+                '/guide/desc.md',
+                '/guide/getting-started.md'],
         },
     ],
 }

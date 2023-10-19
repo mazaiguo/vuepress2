@@ -1,3 +1,4 @@
+<li><router-link to="ify安装.html">docsify安装</router-link></li>
 <li><router-link to="/Tool/Git/Git问题.html">Git问题</router-link></li>
 <li><router-link to="/Tool/Git/key.html">key</router-link></li>
 <li><router-link to="/Tool/Git/ngrok令牌.html">ngrok令牌</router-link></li>
@@ -7,3 +8,6 @@
 <li><router-link to="/Tool/Git/导出log.html">导出log</router-link></li>
 <li><router-link to="/Tool/Git/转移.html">转移</router-link></li>
 <li><router-link to="/Tool/Git/问题.html">问题</router-link></li>
+<li><router-link to="/Tool/GitLab/创建项目.html">创建项目</router-link></li>
+<li><router-link to="/Tool/open_source_tools/rapidjson/rapidjson读写.html">rapidjson读写</router-link></li>
+<li><router-link to="/Tool/PC/右键菜单.html">右键菜单</router-link></li>

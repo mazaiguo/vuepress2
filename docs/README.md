@@ -12,10 +12,14 @@ features:
 actions:
   - text: Guide 💡
     link: ./guide/desc.html
+    type: secondary
+
+  - text: Code📔
+    link: ./Code/
     type: primary
 
-  - text: Config 🛠
-    link: ./reference/cli.html
+  - text: Tool🛠️
+    link: ./Tool/
 ---
 
 <div class="my-footer">MIT Licensed | Copyright © 2018-present <a target="_blank" href="https://github.com/mazaiguo/vuepress2">JerryMa</a></div>

@@ -1,6 +1,6 @@
-## 实现组件的全量打包
+# 实现组件的全量打包
 
-### 根目录新建command,packages文件夹
+## 根目录新建command,packages文件夹
 
 ## 将src下components下所有文件全部拷贝到packages下
 
@@ -135,7 +135,7 @@ import '../lib/style.css'
 
 
 
-# 问题
+## 问题
 
 ```
  error TS1484: 'App' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled
