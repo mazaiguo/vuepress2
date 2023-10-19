@@ -3,7 +3,7 @@
 
 <li><router-link to="/Code/UI/VUE/vue3-admin-guide-master/src/P01_项目集成.html">P01_项目集成</router-link></li>
 
-<li><router-link to="/Code/UI/VUE/vue3-admin-guide-master/src/P15_eslint、##  Prettier、husky.html">P15_eslint、##  Prettier、husky</router-link></li>
+<li><router-link to="/Code/UI/VUE/vue3-admin-guide-master/src/P15_eslint、prettier、husky.html">P15_eslint、prettier、husky</router-link></li>
 
 <li><router-link to="/Code/UI/VUE/vue3-admin-guide-master/src/P24_svg封装.html">P24_svg封装</router-link></li>
 

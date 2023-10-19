@@ -878,5 +878,183 @@ export default defineClientConfig({
 })
 ```
 
+## 增加emoji
 
+[emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+
+常用emoji图标如下所示：
+
+### [Tool](https://github.com/ikatyang/emoji-cheat-sheet#tool)
+
+|                                                              | ico  | shortcode             | ico  | shortcode           |                                                              |
+| ------------------------------------------------------------ | ---- | --------------------- | ---- | ------------------- | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🔨    | `:hammer:`            | 🪓    | `:axe:`             | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | ⛏️    | `:pick:`              | ⚒️    | `:hammer_and_pick:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🛠️    | `:hammer_and_wrench:` | 🗡️    | `:dagger:`          | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | ⚔️    | `:crossed_swords:`    | 💣    | `:bomb:`            | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🪃    | `:boomerang:`         | 🏹    | `:bow_and_arrow:`   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🛡️    | `:shield:`            | 🪚    | `:carpentry_saw:`   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🔧    | `:wrench:`            | 🪛    | `:screwdriver:`     | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🔩    | `:nut_and_bolt:`      | ⚙️    | `:gear:`            | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🗜️    | `:clamp:`             | ⚖️    | `:balance_scale:`   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🦯    | `:probing_cane:`      | 🔗    | `:link:`            | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | ⛓️    | `:chains:`            | 🪝    | `:hook:`            | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🧰    | `:toolbox:`           | 🧲    | `:magnet:`          | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#objects) | 🪜    | `:ladder:`            |      |                     | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+
+### [Keycap](https://github.com/ikatyang/emoji-cheat-sheet#keycap)
+
+|                                                              | ico  | shortcode      | ico  | shortcode    |                                                              |
+| ------------------------------------------------------------ | ---- | -------------- | ---- | ------------ | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#symbols) | #️⃣    | `:hash:`       | *️⃣    | `:asterisk:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#symbols) | 0️⃣    | `:zero:`       | 1️⃣    | `:one:`      | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#symbols) | 2️⃣    | `:two:`        | 3️⃣    | `:three:`    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#symbols) | 4️⃣    | `:four:`       | 5️⃣    | `:five:`     | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#symbols) | 6️⃣    | `:six:`        | 7️⃣    | `:seven:`    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#symbols) | 8️⃣    | `:eight:`      | 9️⃣    | `:nine:`     | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#symbols) | 🔟    | `:keycap_ten:` |      |              | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+
+### [Sport](https://github.com/ikatyang/emoji-cheat-sheet#sport)
+
+|                                                              | ico  | shortcode          | ico  | shortcode                   |                                                              |
+| ------------------------------------------------------------ | ---- | ------------------ | ---- | --------------------------- | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | ⚽    | `:soccer:`         | ⚾    | `:baseball:`                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🥎    | `:softball:`       | 🏀    | `:basketball:`              | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🏐    | `:volleyball:`     | 🏈    | `:football:`                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🏉    | `:rugby_football:` | 🎾    | `:tennis:`                  | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🥏    | `:flying_disc:`    | 🎳    | `:bowling:`                 | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🏏    | `:cricket_game:`   | 🏑    | `:field_hockey:`            | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🏒    | `:ice_hockey:`     | 🥍    | `:lacrosse:`                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🏓    | `:ping_pong:`      | 🏸    | `:badminton:`               | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🥊    | `:boxing_glove:`   | 🥋    | `:martial_arts_uniform:`    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🥅    | `:goal_net:`       | ⛳    | `:golf:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | ⛸️    | `:ice_skate:`      | 🎣    | `:fishing_pole_and_fish:`   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🤿    | `:diving_mask:`    | 🎽    | `:running_shirt_with_sash:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🎿    | `:ski:`            | 🛷    | `:sled:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🥌    | `:curling_stone:`  |      |                             | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+
+### [Game](https://github.com/ikatyang/emoji-cheat-sheet#game)
+
+|                                                              | ico  | shortcode                | ico  | shortcode        |                                                              |
+| ------------------------------------------------------------ | ---- | ------------------------ | ---- | ---------------- | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🎯    | `:dart:`                 | 🪀    | `:yo_yo:`        | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🪁    | `:kite:`                 | 🔫    | `:gun:`          | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🎱    | `:8ball:`                | 🔮    | `:crystal_ball:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🪄    | `:magic_wand:`           | 🎮    | `:video_game:`   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🕹️    | `:joystick:`             | 🎰    | `:slot_machine:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🎲    | `:game_die:`             | 🧩    | `:jigsaw:`       | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🧸    | `:teddy_bear:`           | 🪅    | `:pinata:`       | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🪆    | `:nesting_dolls:`        | ♠️    | `:spades:`       | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | ♥️    | `:hearts:`               | ♦️    | `:diamonds:`     | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | ♣️    | `:clubs:`                | ♟️    | `:chess_pawn:`   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🃏    | `:black_joker:`          | 🀄    | `:mahjong:`      | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#activities) | 🎴    | `:flower_playing_cards:` |      |                  | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+
+### [Heart](https://github.com/ikatyang/emoji-cheat-sheet#heart)
+
+|                                                              | ico  | shortcode            | ico  | shortcode                   |                                                              |
+| ------------------------------------------------------------ | ---- | -------------------- | ---- | --------------------------- | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💌    | `:love_letter:`      | 💘    | `:cupid:`                   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💝    | `:gift_heart:`       | 💖    | `:sparkling_heart:`         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💗    | `:heartpulse:`       | 💓    | `:heartbeat:`               | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💞    | `:revolving_hearts:` | 💕    | `:two_hearts:`              | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💟    | `:heart_decoration:` | ❣️    | `:heavy_heart_exclamation:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💔    | `:broken_heart:`     | ❤️‍🔥   | `:heart_on_fire:`           | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | ❤️‍🩹   | `:mending_heart:`    | ❤️    | `:heart:`                   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 🧡    | `:orange_heart:`     | 💛    | `:yellow_heart:`            | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💚    | `:green_heart:`      | 💙    | `:blue_heart:`              | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💜    | `:purple_heart:`     | 🤎    | `:brown_heart:`             | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 🖤    | `:black_heart:`      | 🤍    | `:white_heart:`             | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+
+
+
+### [Emotion](https://github.com/ikatyang/emoji-cheat-sheet#emotion)
+
+|                                                              | ico  | shortcode              | ico  | shortcode              |                                                              |
+| ------------------------------------------------------------ | ---- | ---------------------- | ---- | ---------------------- | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💋    | `:kiss:`               | 💯    | `:100:`                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💢    | `:anger:`              | 💥    | `:boom:` `:collision:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💫    | `:dizzy:`              | 💦    | `:sweat_drops:`        | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💨    | `:dash:`               | 🕳️    | `:hole:`               | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💬    | `:speech_balloon:`     | 👁️‍🗨️   | `:eye_speech_bubble:`  | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 🗨️    | `:left_speech_bubble:` | 🗯️    | `:right_anger_bubble:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion) | 💭    | `:thought_balloon:`    | 💤    | `:zzz:`                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+
+### [Body Parts](https://github.com/ikatyang/emoji-cheat-sheet#body-parts)
+
+|                                                              | ico  | shortcode                | ico  | shortcode            |                                                              |
+| ------------------------------------------------------------ | ---- | ------------------------ | ---- | -------------------- | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 💪    | `:muscle:`               | 🦾    | `:mechanical_arm:`   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🦿    | `:mechanical_leg:`       | 🦵    | `:leg:`              | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🦶    | `:foot:`                 | 👂    | `:ear:`              | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🦻    | `:ear_with_hearing_aid:` | 👃    | `:nose:`             | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧠    | `:brain:`                | 🫀    | `:anatomical_heart:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🫁    | `:lungs:`                | 🦷    | `:tooth:`            | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🦴    | `:bone:`                 | 👀    | `:eyes:`             | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👁️    | `:eye:`                  | 👅    | `:tongue:`           | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👄    | `:lips:`                 |      |                      | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+
+### [Person](https://github.com/ikatyang/emoji-cheat-sheet#person)
+
+|                                                              | ico  | shortcode             | ico  | shortcode                               |                                                              |
+| ------------------------------------------------------------ | ---- | --------------------- | ---- | --------------------------------------- | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👶    | `:baby:`              | 🧒    | `:child:`                               | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👦    | `:boy:`               | 👧    | `:girl:`                                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑    | `:adult:`             | 👱    | `:blond_haired_person:`                 | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨    | `:man:`               | 🧔    | `:bearded_person:`                      | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧔‍♂️   | `:man_beard:`         | 🧔‍♀️   | `:woman_beard:`                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍🦰   | `:red_haired_man:`    | 👨‍🦱   | `:curly_haired_man:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍🦳   | `:white_haired_man:`  | 👨‍🦲   | `:bald_man:`                            | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩    | `:woman:`             | 👩‍🦰   | `:red_haired_woman:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🦰   | `:person_red_hair:`   | 👩‍🦱   | `:curly_haired_woman:`                  | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🦱   | `:person_curly_hair:` | 👩‍🦳   | `:white_haired_woman:`                  | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🦳   | `:person_white_hair:` | 👩‍🦲   | `:bald_woman:`                          | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🦲   | `:person_bald:`       | 👱‍♀️   | `:blond_haired_woman:` `:blonde_woman:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👱‍♂️   | `:blond_haired_man:`  | 🧓    | `:older_adult:`                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👴    | `:older_man:`         | 👵    | `:older_woman:`                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+
+### [Person Role](https://github.com/ikatyang/emoji-cheat-sheet#person-role)
+
+|                                                              | ico  | shortcode                     | ico  | shortcode                               |                                                              |
+| ------------------------------------------------------------ | ---- | ----------------------------- | ---- | --------------------------------------- | ------------------------------------------------------------ |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍⚕️   | `:health_worker:`             | 👨‍⚕️   | `:man_health_worker:`                   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍⚕️   | `:woman_health_worker:`       | 🧑‍🎓   | `:student:`                             | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍🎓   | `:man_student:`               | 👩‍🎓   | `:woman_student:`                       | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🏫   | `:teacher:`                   | 👨‍🏫   | `:man_teacher:`                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍🏫   | `:woman_teacher:`             | 🧑‍⚖️   | `:judge:`                               | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍⚖️   | `:man_judge:`                 | 👩‍⚖️   | `:woman_judge:`                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🌾   | `:farmer:`                    | 👨‍🌾   | `:man_farmer:`                          | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍🌾   | `:woman_farmer:`              | 🧑‍🍳   | `:cook:`                                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍🍳   | `:man_cook:`                  | 👩‍🍳   | `:woman_cook:`                          | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🔧   | `:mechanic:`                  | 👨‍🔧   | `:man_mechanic:`                        | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍🔧   | `:woman_mechanic:`            | 🧑‍🏭   | `:factory_worker:`                      | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍🏭   | `:man_factory_worker:`        | 👩‍🏭   | `:woman_factory_worker:`                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍💼   | `:office_worker:`             | 👨‍💼   | `:man_office_worker:`                   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍💼   | `:woman_office_worker:`       | 🧑‍🔬   | `:scientist:`                           | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍🔬   | `:man_scientist:`             | 👩‍🔬   | `:woman_scientist:`                     | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍💻   | `:technologist:`              | 👨‍💻   | `:man_technologist:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍💻   | `:woman_technologist:`        | 🧑‍🎤   | `:singer:`                              | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍🎤   | `:man_singer:`                | 👩‍🎤   | `:woman_singer:`                        | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🎨   | `:artist:`                    | 👨‍🎨   | `:man_artist:`                          | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍🎨   | `:woman_artist:`              | 🧑‍✈️   | `:pilot:`                               | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍✈️   | `:man_pilot:`                 | 👩‍✈️   | `:woman_pilot:`                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🚀   | `:astronaut:`                 | 👨‍🚀   | `:man_astronaut:`                       | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍🚀   | `:woman_astronaut:`           | 🧑‍🚒   | `:firefighter:`                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👨‍🚒   | `:man_firefighter:`           | 👩‍🚒   | `:woman_firefighter:`                   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👮    | `:cop:` `:police_officer:`    | 👮‍♂️   | `:policeman:`                           | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👮‍♀️   | `:policewoman:`               | 🕵️    | `:detective:`                           | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🕵️‍♂️   | `:male_detective:`            | 🕵️‍♀️   | `:female_detective:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 💂    | `:guard:`                     | 💂‍♂️   | `:guardsman:`                           | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 💂‍♀️   | `:guardswoman:`               | 🥷    | `:ninja:`                               | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👷    | `:construction_worker:`       | 👷‍♂️   | `:construction_worker_man:`             | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👷‍♀️   | `:construction_worker_woman:` | 🤴    | `:prince:`                              | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👸    | `:princess:`                  | 👳    | `:person_with_turban:`                  | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👳‍♂️   | `:man_with_turban:`           | 👳‍♀️   | `:woman_with_turban:`                   | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👲    | `:man_with_gua_pi_mao:`       | 🧕    | `:woman_with_headscarf:`                | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🤵    | `:person_in_tuxedo:`          | 🤵‍♂️   | `:man_in_tuxedo:`                       | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🤵‍♀️   | `:woman_in_tuxedo:`           | 👰    | `:person_with_veil:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👰‍♂️   | `:man_with_veil:`             | 👰‍♀️   | `:bride_with_veil:` `:woman_with_veil:` | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🤰    | `:pregnant_woman:`            | 🤱    | `:breast_feeding:`                      | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍🍼   | `:woman_feeding_baby:`        | 👨‍🍼   | `:man_feeding_baby:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
+| [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🍼   | `:person_feeding_baby:`       |      |                                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
 

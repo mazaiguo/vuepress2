@@ -1,10 +1,10 @@
 ## 导出Git log
 ### 写周报专用
-```c++
+```bash
 git log --merges --pretty=format:"%s" --since=5.days >> ./log.md//导出5天内merge的数据
 ```
 ### 获取两个提交之间的log日志
-```c++
+```bash
 git log --merges --pretty=format:"%s" --since=5.days >> ./log4.md//导出5天内merge的数据
 git log SHA-1_A..SHA-1_B --pretty=format:"%cd:  %s" --date=format:%Y%m%d > changeLog.md//两个SHA值之间的..号不能去掉
 git log --pretty=format:"%s<%h>" --since=5.days >> ./log3.md//导出5天内提交的log日志，带简短哈希字串
@@ -44,7 +44,7 @@ git log --pretty=format:"%ai , %an: %s"
 |%P    |父对象（parent）的完整哈希字串|%cd    |提交日期|
 |%p    |父对象的简短哈希字串|%cr    |提交日期，按多久以前的方式显示|
 |%an    |作者（author）的名字|%s    |提交说明|
-|%ae    |作者的电子邮件地址|
+|%ae    |作者的电子邮件地址|||
 
 
 

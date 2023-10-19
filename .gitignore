@@ -2,6 +2,8 @@
 *.DS_Store
 .idea
 .vscode
+.cache
+.temp
 
 #npm
 package-lock.json

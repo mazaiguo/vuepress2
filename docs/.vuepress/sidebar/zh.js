@@ -37,7 +37,8 @@ module.exports = {
                 'Vue3-UI库学习',
                 'VUEPRESS安装',
                 'VUE组件打包',
-                'vue3-admin-guide'
+                { text: 'vue3-admin-guide', link: '/Code/UI/VUE/vue3-admin-guide' },
+                { text: 'Vue3学习笔记🧡', link: '/Code/UI/VUE/Vue3StudyNote' },
             ],
         },
     ],
