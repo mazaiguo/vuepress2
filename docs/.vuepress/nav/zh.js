@@ -1,62 +1,62 @@
 module.exports =
     [
-        { text: 'Home', link: '/' },
+        { text: 'Home🗒️', link: '/' },
         {
-            text: 'Code', link: '/Code/',
+            text: 'Code📔', link: '/Code/',
             children: [
-                { text: 'ARX', link: '/Code/ARX/' },
-                { text: 'JAVA', link: '/Code/JAVA/' },
+                { text: 'ARX📖', link: '/Code/ARX/' },
+                { text: 'JAVA📘', link: '/Code/JAVA/' },
                 {
-                    text:'C++', link:'/Code/CPP/'
+                    text:'C++📚', link:'/Code/CPP/'
                 },
                 {
-                    text: 'Programminglanguage', children: [
+                    text: 'Programminglanguage📒', children: [
                         {
-                            text: 'Python', link: '/Code/Programminglanguage/Python/'
+                            text: 'Python📜', link: '/Code/Programminglanguage/Python/'
                         }]
                 },
                 {
-                    text: 'UI', children: [
+                    text: 'UI🏷️', children: [
                         {
-                            text: 'Vue3-UI库学习', link: '/Code/UI/VUE/'
+                            text: 'Vue3-UI库学习📰', link: '/Code/UI/VUE/'
                         }]
                 },
                
             ]
         },
         {
-            text:'Tool',
+            text:'Tool🛠️',
             children:[
                 {
-                    text: 'Git',
+                    text: 'Git🔨',
                     link:'/Tool/Git/',
                 },
                 {
-                    text: 'Gitlab',
+                    text: 'Gitlab⛏️',
                     link:'/Tool/Gitlab/',
                 },
                 {
-                    text: 'PC',
+                    text: 'PC⚔️',
                     link:'/Tool/PC/',
                 },
                 {
-                    text:'docsify',
+                    text:'docsify🛡️',
                     link:'/Tool/docsify/',
                 }
             ]
         },
         // 控制元素何时被激活
         {
-            text: 'Guide',
+            text: 'Guide💰',
             children: [
                 {
-                    text: 'Guide',
+                    text: 'Guide💴',
                     link: '/guide/desc',
                     // 该元素将一直处于激活状态
                     // activeMatch: '/',
                 },
                 {
-                    text: 'getting-started',
+                    text: 'getting-started💶',
                     link: '/guide/getting-started',
                     // 该元素在当前路由路径是 /foo/ 开头时激活
                     // 支持正则表达式
@@ -65,7 +65,7 @@ module.exports =
             ],
         },
         {
-            text:'GitHub',
+            text:'GitHub🏳️',
             link:'https://github.com/mazaiguo/vuepress2',
             target:'_blank',
         }

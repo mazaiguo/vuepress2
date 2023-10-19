@@ -7,6 +7,7 @@ import themeSidebar from 'vuepress-theme-sidebar';
 export default defineUserConfig({
   lang: 'zh-CN',
   title: '你好， VuePress ！',
+  head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
   description: '这是我的第一个 VuePress 站点',
   base:'/vuepress2/',
   theme: defaultTheme({

@@ -2,7 +2,9 @@ module.exports = {
     '/Code/ARX/': [
         {
             text: 'ARX',
-            children: ['/Code/ARX/',
+            children: [
+                { text: '主页🗒️', link: '/' },
+                { text: 'ARX📖', link: '/Code/ARX/' },
                 'CustomEntity Trim Extend.md',
                 'ARX保存相关问题.md',
                 'ARX获取背景色',
@@ -15,7 +17,7 @@ module.exports = {
     '/Code/JAVA/': [
         {
             text: 'JAVA',
-            children: ['/Code/JAVA/', '问题.md'],
+            children: [{ text: 'JAVA📘', link: '/Code/JAVA/' }, '问题.md'],
         },
     ],
     '/Code/Programminglanguage/Python/': [
@@ -27,14 +29,23 @@ module.exports = {
     '/Code/UI/VUE/': [
         {
             text: 'VUE',
-            children: ['/Code/UI/VUE/', 'MFC使用cef', 'mockjs', 'Vue3-UI库学习', 'VUEPRESS安装', 'VUE组件打包', 'vue3-admin-guide'],
+            children: [
+                { text: '主页🗒️', link: '/' },
+                { text: 'VUE📰', link: '/Code/UI/VUE/' },
+                'MFC使用cef',
+                'mockjs',
+                'Vue3-UI库学习',
+                'VUEPRESS安装',
+                'VUE组件打包',
+                'vue3-admin-guide'
+            ],
         },
     ],
-    '/Code/CPP/':[
+    '/Code/CPP/': [
         {
             text: 'CPP',
-            children:[
-
+            children: [
+                { text: '主页🗒️', link: '/' },
                 'libcurl post json乱码',
                 'VC获取时间',
                 'Visual Studio 调试器中的CPP格式说明符',
@@ -43,10 +54,10 @@ module.exports = {
             ]
         }
     ],
-    '/Tool/Git/':[
+    '/Tool/Git/': [
         {
-            text: 'Git',
-            children:[
+            text: 'Git🔨',
+            children: [
                 'Git问题',
                 'ngrok令牌',
                 'SSH创建及提取',
@@ -59,23 +70,30 @@ module.exports = {
             ]
         }
     ],
-    '/Tool/GitLab/':[
+    '/Tool/Gitlab/': [
         {
-            text: 'GitLab',
-            children:[
-                '创建项目'
+            text: 'Gitlab⛏️',
+            children: [
+                { text: '主页🗒️', link: '/' }, '创建项目'
             ]
         }
     ],
-    '/Tool/docsify/':[
+    '/Tool/docsify/': [
         {
-            text: 'docsify安装',
-            children:[
-                'docsify安装'
+            text: 'docsify安装🛡️',
+            children: [
+                { text: '主页🗒️', link: '/' }, 'docsify安装'
             ]
         }
     ],
-
+    '/Tool/PC/': [
+        {
+            text: 'PC⚔️',
+            children: [
+                { text: '主页🗒️', link: '/' }, '右键菜单'
+            ]
+        }
+    ],
     '/guide/': [
         {
             text: 'Guide',
