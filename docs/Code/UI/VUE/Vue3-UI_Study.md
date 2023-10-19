@@ -1,4 +1,4 @@
-# 关于Vue3 UI库
+# Vue3-UI库学习
 
 [2023值得推荐的Vue3.0 PC端UI组件库](https://zhuanlan.zhihu.com/p/616831237?utm_id=0)
 

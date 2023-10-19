@@ -6,12 +6,10 @@
 <li><router-link to="code-tabs.html">code-tabs</router-link></li>
 <li><router-link to="container.html">container</router-link></li>
 <li><router-link to="demo.html">demo</router-link></li>
-<li><router-link to="desc.html">desc</router-link></li>
 <li><router-link to="echarts.html">echarts</router-link></li>
 <li><router-link to="figure.html">figure</router-link></li>
 <li><router-link to="flowchart.html">flowchart</router-link></li>
 <li><router-link to="footnote.html">footnote</router-link></li>
-<li><router-link to="getting-started.html">getting-started</router-link></li>
 <li><router-link to="image-mark.html">image-mark</router-link></li>
 <li><router-link to="image-size.html">image-size</router-link></li>
 <li><router-link to="include.html">include</router-link></li>

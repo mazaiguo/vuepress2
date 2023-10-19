@@ -43,13 +43,14 @@ module.exports = {
             children: [
                 { text: 'Code📔', link: '/Code/' },
                 { text: 'VUE📰', link: '/Code/UI/VUE/' },
-                'MFC使用cef',
-                'mockjs',
-                'Vue3-UI库学习',
-                'VUEPRESS安装',
-                'VUE组件打包',
+                { text: 'MFC_Use_cef', link: '/Code/UI/VUE/MFC_Use_cef' },
+                { text: 'mockjs', link: '/Code/UI/VUE/mockjs' },
+                { text: 'plugin-md-enhance', link: '/Code/UI/VUE/plugin-md-enhance' },
                 { text: 'vue3-admin-guide', link: '/Code/UI/VUE/vue3-admin-guide' },
-                { text: 'Vue3学习笔记🧡', link: '/Code/UI/VUE/Vue3StudyNote' },
+                { text: 'Vue3-UI_Study', link: '/Code/UI/VUE/Vue3-UI_Study' },
+                { text: 'Vue3StudyNote', link: '/Code/UI/VUE/Vue3StudyNote' },
+                { text: 'VUEComponent_Packaging', link: '/Code/UI/VUE/VUEComponent_Packaging' },
+                { text: 'VUEPRESSInstall', link: '/Code/UI/VUE/VUEPRESSInstall' },
             ],
         },
     ],
@@ -121,9 +122,11 @@ module.exports = {
     '/guide/': [
         {
             text: 'Guide',
-            children: [{ text: '主页🗒️', link: '/' },
-                '/guide/desc.md',
-                '/guide/getting-started.md'],
+            children: [
+                { text: '主页🗒️', link: '/' },
+                { text: 'desc', link: 'desc' },
+                { text: 'getting-started', link: 'getting-started' },
+            ],
         },
     ],
 }

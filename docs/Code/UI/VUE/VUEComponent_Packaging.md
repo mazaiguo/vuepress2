@@ -1,4 +1,4 @@
-# 实现组件的全量打包
+# VUE组件打包
 
 ## 根目录新建command,packages文件夹
 

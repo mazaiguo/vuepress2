@@ -43,13 +43,13 @@ def outputAllInfo(path):
         filePathname = windows_path.split(":")[-1].split(".")[0]
         filePathname = filePathname.split("docs/")[-1]
         filename = windows_path.split(":")[-1].split(".")[0].split("/")[-1]
-        str1 = '<li><router-link to="%s.html">%s</router-link></li>' % (
+        str1 = '<li><router-link to="/%s.html">%s</router-link></li>' % (
             filePathname,
             filename,
         )
         # print(str )
         contents.append(str1)
-        sider = "{ text: '%s', link: '%s' }," % (filename, filePathname)
+        sider = "{ text: '%s', link: '/%s' }," % (filename, filePathname)
         sidebar.append(sider)
 
     readmefile = path + "\\README.log"
@@ -75,12 +75,12 @@ def outputCurrentInfo(path):
         filePathname = windows_path.split(":")[-1].split(".")[0]
         filePathname = filePathname.split("docs/")[-1]
         filename = windows_path.split(":")[-1].split(".")[0].split("/")[-1]
-        str1 = '<li><router-link to="%s.html">%s</router-link></li>' % (
-            filename,
+        str1 = '<li><router-link to="/%s.html">%s</router-link></li>' % (
+            filePathname,
             filename,
         )
         contents.append(str1)
-        sider = "{ text: '%s', link: '%s' }," % (filename, filePathname)
+        sider = "{ text: '%s', link: '/%s' }," % (filename, filePathname)
         sidebar.append(sider)
     readmefile = path + "\\README.md"
     writeContentToReadMe(contents, readmefile)
@@ -115,12 +115,13 @@ if __name__ == "__main__":
     outputAllInfo(path)
     outputCurrentInfo(path)
 
+
 ```
 
 ### 打包方式
 
 ```bash
--F -i 22.ico .\exportmdforvuepress.py
+pyinstaller -F -i 22.ico .\exportmdforvuepress.py
 ```
 
 ### 使用方式

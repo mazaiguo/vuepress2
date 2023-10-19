@@ -252,3 +252,7 @@ div[class*=language-].line-numbers-mode .line-numbers {
 div[class*=language-] {
   padding-top: 0.2rem;
 }
+// plugin-md-enhance 多选项卡被隐藏了，把高度放大点
+.vp-code-tabs-nav{
+  height: 40px;
+}
