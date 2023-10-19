@@ -5,6 +5,7 @@
 .cache
 .temp
 *.exe
+*.py
 
 #npm
 package-lock.json
