@@ -1,5 +1,5 @@
-## 导出Git log
-### 写周报专用
+# 导出Git log
+## 写周报专用
 ```bash
 git log --merges --pretty=format:"%s" --since=5.days >> ./log.md//导出5天内merge的数据
 ```

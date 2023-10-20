@@ -1,10 +1,10 @@
-### 打包
+# 打包
 
 ```python
 pyinstaller -F -w -i python.ico watermark.py
 ```
 
-### 问题
+## 问题
 
 * RuntimeError: input(): lost sys.stdin
 

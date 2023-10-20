@@ -55,7 +55,7 @@ def outputAllInfo(path):
     readmefile = path + "\\README.log"
     writeContentToReadMe(contents, readmefile)
     sidebarfile = path + "\\Allsidebar.log"
-    outputsidebarInfo(sidebar, sidebarfile)
+    writeContentToReadMe(sidebar, sidebarfile)
 
 
 # 只导出当前文件夹下的md文件名，不导出子文件夹的信息
@@ -69,6 +69,7 @@ def outputCurrentInfo(path):
     ]
     contents = []
     sidebar = []
+    childSidebar = []
     for file in file_list:
         windows_path = file.replace("\\", "/")
         # 项目都以docs为根节点，那么解析的时候用docs做标记截断
@@ -82,11 +83,14 @@ def outputCurrentInfo(path):
         contents.append(str1)
         sider = "{ text: '%s', link: '/%s' }," % (filename, filePathname)
         sidebar.append(sider)
+        csider = " '/%s'," % filePathname
+        childSidebar.append(csider)
     readmefile = path + "\\README.md"
     writeContentToReadMe(contents, readmefile)
     sidebarfile = path + "\\currentsidebar.log"
-    outputsidebarInfo(sidebar, sidebarfile)
-
+    writeContentToReadMe(sidebar, sidebarfile)
+    childSidebarfile = path + "\\childsidebar.log"
+    writeContentToReadMe(childSidebar, childSidebarfile)
 
 # 将当前文件夹下的md文件名写入README中
 def writeContentToReadMe(contents, readmefile):
@@ -99,23 +103,10 @@ def writeContentToReadMe(contents, readmefile):
             f.write(content)
 
 
-# 导出sidebar中的信息
-def outputsidebarInfo(sidebar, sidebarfile):
-    if os.path.exists(sidebarfile):
-        os.remove(sidebarfile)
-
-    with open(sidebarfile, "w", encoding="utf-8") as f:
-        for sider in sidebar:
-            sider += "\n"
-            f.write(sider)
-
-
 if __name__ == "__main__":
     path = get_current_file_path()
     outputAllInfo(path)
     outputCurrentInfo(path)
-
-
 ```
 
 ### 打包方式

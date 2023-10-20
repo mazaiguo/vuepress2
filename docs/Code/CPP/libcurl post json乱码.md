@@ -1,3 +1,5 @@
+# libcurl_Post_json乱码
+
 ```cpp
 string GBKToUTF8(const std::string& strGBK)
 {

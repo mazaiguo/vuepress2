@@ -1,6 +1,6 @@
-## 路由Vue Router
+# 路由Vue Router
 
-### 入门
+## 入门
 
 * main.js中填写如下代码
 
@@ -37,11 +37,11 @@ app.mount('#app')
 
 * 添加components/Home.vue和components/about.vue
 
-### 参数传递
+## 参数传递
 
-#### 数据传递useRouter()
+### 数据传递useRouter()
 
-#### 数据提取useRoute()
+### 数据提取useRoute()
 
 ```vue
 import { useRoute, useRouter } from 'vue-router';

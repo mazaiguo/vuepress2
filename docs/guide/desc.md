@@ -1058,3 +1058,39 @@ export default defineClientConfig({
 | [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 👩‍🍼   | `:woman_feeding_baby:`        | 👨‍🍼   | `:man_feeding_baby:`                    | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
 | [top](https://github.com/ikatyang/emoji-cheat-sheet#people--body) | 🧑‍🍼   | `:person_feeding_baby:`       |      |                                         | [top](https://github.com/ikatyang/emoji-cheat-sheet#table-of-contents) |
 
+## 问题
+
+### sidebar的方式有两种：
+
+#### 第一种如下所示：
+
+```js
+{
+    text: 'plugin-md-enhance', link: '/Code/UI/VUE/plugin-md-enhance',
+        // 目录是否折叠
+        collapsible: true,
+            children: [
+                // 这种方式需要处理markdown文件名必须不能为中文，这种方式也没有目录结构，不太推荐
+                { text: 'align', link: '/Code/UI/VUE/md-enhance/align' },
+                { text: 'card', link: '/Code/UI/VUE/md-enhance/card' },
+            ]
+},
+```
+
+这种方式需要处理markdown文件名必须不能为中文，这种方式也没有目录结构，不太推荐
+
+#### 第二种如下所示：
+
+```javascript
+{
+    text: 'vue3-admin-guide', link: '/Code/UI/VUE/vue3-admin-guide',
+        // 目录是否折叠
+        collapsible: true,
+            children: [
+                // 推荐这种方式，点击名称有侧边栏目录。还有markdown文件中必须配置标题，不然名称就用下面的字符配置的信息，不好看
+                '/Code/UI/VUE/vue3-admin-guide-master/src/P00_项目配置',
+                '/Code/UI/VUE/vue3-admin-guide-master/src/P01_项目集成',
+            ]
+},
+```
+

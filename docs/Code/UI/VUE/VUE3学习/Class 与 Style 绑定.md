@@ -1,8 +1,8 @@
-## Class 与 Style 绑定
+# Class 与 Style 绑定
 
-### 绑定 HTML class
+## 绑定 HTML class
 
-#### 绑定对象
+### 绑定对象
 
 我们可以给 `:class` (`v-bind:class` 的缩写) 传递一个对象来动态切换 class：
 

@@ -1,4 +1,4 @@
-## 安装docsify
+# 安装docsify
 
 * 先安装nodejs
 

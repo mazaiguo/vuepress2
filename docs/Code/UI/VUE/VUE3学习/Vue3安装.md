@@ -1,4 +1,4 @@
-## Vue3安装
+# Vue3安装
 
 [下载Vue.js](https://unpkg.com/vue@3.2.36/dist/vue.global.js)
 
