@@ -64,9 +64,9 @@ module.exports =
                 },
             ],
         },
-        {
-            text:'GitHub🏳️',
-            link:'https://github.com/mazaiguo/vuepress2',
-            target:'_blank',
-        }
+        // {
+        //     text:'GitHub🏳️',
+        //     link:'https://github.com/mazaiguo/vuepress2',
+        //     target:'_blank',
+        // }
     ]

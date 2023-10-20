@@ -16,6 +16,12 @@ export default defineUserConfig({
     // 侧边栏对象
     // 不同子路径下的页面会使用不同的侧边栏
     sidebar: require('./sidebar/zh'),
+    repo:'mazaiguo/vuepress2',
+    docsDir: 'docs', // .md文件放在了docs目录下
+    editLinks: true, // 启用编辑链接
+    editLinkText: 'Edit this page on GitHub',
+    contributors: false,
+    toggleSidebar: '👈',
   }),
 
 
