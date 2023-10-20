@@ -240,29 +240,25 @@ export default {
 
 #### 使用方法
 
-:::: code-group
-::: code-group-item yarn
-
+::: code-tabs#shell
+@tab yarn
 ```bash
 yarn add -D vuepress-plugin-copy-code2
 ```
-:::
-::: code-group-item npm
+@tab npm
 ```bash
 npm i -D vuepress-plugin-copy-code2
 ```
-:::
-::: code-group-item pnpm
+@tab pnpm
 ```bash
 pnpm add -D vuepress-plugin-copy-code2
 ```
 :::
-::::
 
 #### Usage
 
-:::: code-group
-::: code-group-item TS
+::: code-tabs#shell
+@tab TS
 
 ```bash
 // .vuepress/config.ts
@@ -277,8 +273,7 @@ export default {
 };
 ```
 
-:::
-::: code-group-item JS
+@tab JS
 
 ```bash
 // .vuepress/config.js
@@ -292,9 +287,7 @@ export default {
   ],
 };
 ```
-
 :::
-::::
 
 ### [vuepress-theme-sidebar](https://github.com/dingshaohua-cn/vuepress-theme-sidebar#vuepress-theme-sidebar)
 

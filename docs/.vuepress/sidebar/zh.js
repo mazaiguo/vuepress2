@@ -63,7 +63,6 @@ module.exports = {
                         { text: 'mark', link: '/Code/UI/VUE/md-enhance/mark' },
                         { text: 'mermaid', link: '/Code/UI/VUE/md-enhance/mermaid' },
                         { text: 'playground', link: '/Code/UI/VUE/md-enhance/playground' },
-                        { text: 'Presentation', link: '/Code/UI/VUE/md-enhance/Presentation' },
                         { text: 'revealjs', link: '/Code/UI/VUE/md-enhance/revealjs' },
                         { text: 'slide-page', link: '/Code/UI/VUE/md-enhance/slide-page' },
                         { text: 'stylized', link: '/Code/UI/VUE/md-enhance/stylized' },
