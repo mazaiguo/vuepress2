@@ -11,3 +11,5 @@
 <li><router-link to="/Tool/GitLab/创建项目.html">创建项目</router-link></li>
 <li><router-link to="/Tool/open_source_tools/rapidjson/rapidjson读写.html">rapidjson读写</router-link></li>
 <li><router-link to="/Tool/PC/右键菜单.html">右键菜单</router-link></li>
+<li><router-link to="/Tool/magic/节点搭建.html">节点搭建</router-link></li>
+<li><router-link to="/Tool/magic/帮瓦工设置.html">帮瓦工设置</router-link></li>

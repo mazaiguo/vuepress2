@@ -201,6 +201,17 @@ module.exports = {
             ]
         }
     ],
+    '/Tool/magic/': [
+        {
+            text: 'magic',
+            children: [
+                { text: '主页🗒️', link: '/' },
+                { text: 'Tool🛠️', link: '/Tool/' },
+                '/Tool/magic/搬瓦工设置',
+                '/Tool/magic/节点搭建',
+            ]
+        }
+    ],
     '/guide/': [
         {
             text: 'Guide',

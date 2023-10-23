@@ -43,6 +43,11 @@ module.exports =
                     text:'docsify🛡️',
                     link:'/Tool/docsify/',
                 }
+                ,
+                {
+                    text:'magic',
+                    link:'/Tool/magic/',
+                }
             ]
         },
         // 控制元素何时被激活
