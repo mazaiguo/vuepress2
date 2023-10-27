@@ -277,3 +277,121 @@ module.exports = {
 
 
 
+## 新增功能
+
+### 为vuepress添加侧边栏隐藏的功能
+
+参考[组件替换](https://v2.vuepress.vuejs.org/zh/reference/default-theme/extending.html#%E7%BB%84%E4%BB%B6%E6%9B%BF%E6%8D%A2)
+
+#### 组件替换
+
+布局插槽十分实用，但有时候你可能会觉得它不够灵活。默认主题同样提供了替换单个组件的能力。
+
+默认主题将所有 [非全局的组件在新窗口打开](https://github.com/vuepress/vuepress-next/tree/main/ecosystem/theme-default/src/client/components) 都注册了一个带 `@theme` 前缀的 [alias](https://v2.vuepress.vuejs.org/zh/reference/plugin-api.html#alias) 。例如，`HomeFooter.vue` 的别名是 `@theme/HomeFooter.vue` 。
+
+接下来，如果你想要替换 `HomeFooter.vue` 组件，只需要在配置文件 `.vuepress/config.ts` 中覆盖这个别名即可：
+
+```
+import { getDirname, path } from '@vuepress/utils'
+import { defaultTheme, defineUserConfig } from 'vuepress'
+
+const __dirname = getDirname(import.meta.url)
+
+export default defineUserConfig({
+  theme: defaultTheme(),
+  alias: {
+    '@theme/HomeFooter.vue': path.resolve(__dirname, './components/MyHomeFooter.vue'),
+  },
+})
+```
+
+#### 实际解决方案
+
+```
+import { getDirname, path } from '@vuepress/utils'
+import { defaultTheme, defineUserConfig } from 'vuepress'
+
+const __dirname = getDirname(import.meta.url)
+
+export default defineUserConfig({
+  theme: defaultTheme(),
+  alias: {
+   '@theme/Page.vue': path.resolve(__dirname, './components/MyPage.vue'),
+  },
+})
+```
+
+`docs\.vuepress\components\MyPage.vue`
+
+```vue
+<script setup lang="ts">
+import PageMeta from '@theme/PageMeta.vue'
+import PageNav from '@theme/PageNav.vue'
+import { ref } from 'vue'
+let isCollapse = ref(false)
+function toggleCollapse() {
+    isCollapse.value = !isCollapse.value
+    const html = document.documentElement;
+    //修改属性值，使得样式生效
+    html.style.setProperty('--sidebar-width', isCollapse.value? "0" : "20rem");
+}
+defineSlots<{
+    'top'?: (props: Record<never, never>) => any
+    'bottom'?: (props: Record<never, never>) => any
+    'content-top'?: (props: Record<never, never>) => any
+    'content-bottom'?: (props: Record<never, never>) => any
+}>()
+</script>
+
+<template>
+    <main
+        class="page"
+        :class="{ fold: isCollapse ? true : false }"
+    >
+        <el-icon
+            :size="25"
+            @click="toggleCollapse"
+            v-if="isCollapse"
+        >
+            <Fold />
+        </el-icon>
+        <el-icon
+            :size="25"
+            @click="toggleCollapse"
+            v-else
+        >
+            <Expand />
+        </el-icon>
+        <slot name="top" />
+
+        <div class="theme-default-content">
+            <slot name="content-top" />
+
+            <Content />
+
+            <slot name="content-bottom" />
+        </div>
+
+        <PageMeta />
+
+        <PageNav />
+
+    <slot name="bottom" />
+    <!-- <PageFooter /> -->
+    <!-- <template #page-bottom> -->
+    <div class="my-footer">MIT Licensed | Copyright © 2018-present <a
+            target="_blank"
+            href="https://github.com/mazaiguo/vuepress2"
+        >JerryMa</a></div>
+    <!-- </template>    -->
+</main></template>
+
+<style scoped lang="scss">
+    .page{
+        &.fold {
+            padding-left: 0;
+        }
+    }
+</style>
+```
+

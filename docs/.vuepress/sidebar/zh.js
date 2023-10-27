@@ -74,39 +74,6 @@ module.exports = {
                     ]
                 },
                 {
-                    text: 'vue3-admin-guide', link: '/Code/UI/VUE/vue3-admin-guide',
-                    // 目录是否折叠
-                    collapsible: true,
-                    children: [
-                        // 推荐这种方式，点击名称有侧边栏目录。还有markdown文件中必须配置标题，不然名称就用下面的字符配置的信息，不好看
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P00_项目配置',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P01_项目集成',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P15_eslint、prettier、husky',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P24_svg封装',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P24_为什么要封装组件',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P26_集成sass',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P27_mock接口',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P28_axios请求',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P29_总结',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P30_路由',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P31_登录页面静态搭建',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P32_模板封装登录业务',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P33_ts类型定义',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P36_自定义校验表单',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P37_layout组件静态的搭建',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P38_logo组件的封装',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P39_左侧菜单',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P40_递归组件生成动态菜单',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P41_菜单图标',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P43_顶部tabbar',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P44_菜单折叠',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P45_面包屑动态展示',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P46_刷新业务的实现',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P47_全屏模式的切换',
-                        '/Code/UI/VUE/vue3-admin-guide-master/src/P48_获取用户信息及对token的理解',
-                    ]
-                },
-                {
                     text: 'Vue3StudyNote', link: '/Code/UI/VUE/Vue3StudyNote',
                     // 目录是否折叠
                     collapsible: true,
