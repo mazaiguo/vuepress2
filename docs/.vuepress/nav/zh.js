@@ -45,7 +45,7 @@ module.exports =
                 }
                 ,
                 {
-                    text:'magic',
+                    text:'magic💣',
                     link:'/Tool/magic/',
                 }
             ]

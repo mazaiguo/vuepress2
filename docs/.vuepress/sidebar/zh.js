@@ -130,6 +130,7 @@ module.exports = {
                 '/Code/UI/VUE/Vue3-UI_Study',
                 '/Code/UI/VUE/VUEComponent_Packaging',
                 '/Code/UI/VUE/VUEPRESSInstall',
+                '/Code/UI/VUE/VUE3_Admin_For_sgg',
             ],
         },
     ],
@@ -203,11 +204,10 @@ module.exports = {
     ],
     '/Tool/magic/': [
         {
-            text: 'magic',
+            text: 'magic💣',
             children: [
                 { text: '主页🗒️', link: '/' },
                 { text: 'Tool🛠️', link: '/Tool/' },
-                '/Tool/magic/搬瓦工设置',
                 '/Tool/magic/节点搭建',
             ]
         }
