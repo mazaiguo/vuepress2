@@ -2,7 +2,7 @@ import { defineClientConfig } from '@vuepress/client'
 import * as Icons from '@element-plus/icons-vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/theme-chalk/index.css'
-import Layout from './layouts/Layout.vue'
+// import Layout from './layouts/Layout.vue'
 //加载elementplus
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
@@ -17,9 +17,6 @@ export default defineClientConfig({
   },
   setup() {},
   rootComponents: [],
-  layouts: {
-    Layout,
-  },
 })
 
 

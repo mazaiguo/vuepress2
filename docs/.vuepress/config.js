@@ -4,6 +4,8 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+import { getDirname, path } from '@vuepress/utils'
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -23,7 +25,9 @@ export default defineUserConfig({
     contributors: false,
     toggleSidebar: '👈',
   }),
-
+  alias: {
+    '@theme/Page.vue': path.resolve(__dirname, './components/MyPage.vue'),
+  },
 
   plugins: [
     searchPlugin({
