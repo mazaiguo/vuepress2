@@ -3097,7 +3097,7 @@ dashjs@^4.7.2:
     path-browserify "^1.0.1"
     ua-parser-js "^1.0.2"
 
-dayjs@^1.11.10, dayjs@^1.11.3, dayjs@^1.11.7:
+dayjs@^1.11.10, dayjs@^1.11.3, dayjs@^1.11.7, dayjs@^1.8.26:
   version "1.11.10"
   resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.11.10.tgz"
   integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
@@ -6028,6 +6028,13 @@ vuepress-theme-hope@^2.0.0-beta.238:
     vuepress-plugin-seo2 "2.0.0-beta.238"
     vuepress-plugin-sitemap2 "2.0.0-beta.238"
     vuepress-shared "2.0.0-beta.238"
+
+vuepress-theme-inherit@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-inherit/-/vuepress-theme-inherit-1.0.6.tgz#4a8f84ebb1bc507bd280f778d5527cf75076788d"
+  integrity sha512-aHizVarV7XYZDYgckCMJ8SYbvFXIOu/M3yz5GILiojNBugVqO35+IfDCpQRcrogpqxHQ6huChagi3T6EoMbGZg==
+  dependencies:
+    dayjs "^1.8.26"
 
 vuepress-theme-sidebar@^0.0.9:
   version "0.0.9"

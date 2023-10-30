@@ -1,4 +1,5 @@
-<li><router-link to="ify安装.html">docsify安装</router-link></li>
+<li><router-link to="/Tool/docsify/docsify安装.html">docsify安装</router-link></li>
+<li><router-link to="/Tool/Excel/PD读取Excel.html">PD读取Excel</router-link></li>
 <li><router-link to="/Tool/Git/Git问题.html">Git问题</router-link></li>
 <li><router-link to="/Tool/Git/key.html">key</router-link></li>
 <li><router-link to="/Tool/Git/ngrok令牌.html">ngrok令牌</router-link></li>
@@ -9,7 +10,7 @@
 <li><router-link to="/Tool/Git/转移.html">转移</router-link></li>
 <li><router-link to="/Tool/Git/问题.html">问题</router-link></li>
 <li><router-link to="/Tool/GitLab/创建项目.html">创建项目</router-link></li>
+<li><router-link to="/Tool/magic/搬瓦工设置.html">搬瓦工设置</router-link></li>
+<li><router-link to="/Tool/magic/节点搭建.html">节点搭建</router-link></li>
 <li><router-link to="/Tool/open_source_tools/rapidjson/rapidjson读写.html">rapidjson读写</router-link></li>
 <li><router-link to="/Tool/PC/右键菜单.html">右键菜单</router-link></li>
-<li><router-link to="/Tool/magic/节点搭建.html">节点搭建</router-link></li>
-<li><router-link to="/Tool/magic/帮瓦工设置.html">帮瓦工设置</router-link></li>
