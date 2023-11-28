@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-113e9ce8","path":"/Tool/docsify/","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1697703704000},"filePathRelative":"Tool/docsify/README.md"}');export{e as data};

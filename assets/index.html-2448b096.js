@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e7e45080","path":"/Tool/magic/","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1698049830000},"filePathRelative":"Tool/magic/README.md"}');export{e as data};

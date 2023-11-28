@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-68d271bb","path":"/Code/UI/VUE/md-enhance/Vue-Playground.html","title":"Vue Playground","lang":"zh-CN","frontmatter":{"title":"Vue Playground"},"headers":[{"level":2,"title":"Demo","slug":"demo","link":"#demo","children":[]}],"git":{"updatedTime":1697711588000},"filePathRelative":"Code/UI/VUE/md-enhance/Vue-Playground.md"}');export{e as data};

@@ -1,0 +1,1 @@
+import{_ as c,o,c as t,a as e,b as a}from"./app-a242af93.js";const n={},r=e("h1",{id:"config-md",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#config-md","aria-hidden":"true"},"#"),a(" config md")],-1),s=[r];function d(i,_){return o(),t("div",null,s)}const h=c(n,[["render",d],["__file","config.html.vue"]]);export{h as default};

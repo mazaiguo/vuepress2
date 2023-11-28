@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a3ad8d12","path":"/Code/UI/VUE/md-enhance/code-tabs.html","title":"Code Tabs","lang":"zh-CN","frontmatter":{"title":"Code Tabs"},"headers":[{"level":2,"title":"Demo","slug":"demo","link":"#demo","children":[]}],"git":{"updatedTime":1697711588000},"filePathRelative":"Code/UI/VUE/md-enhance/code-tabs.md"}');export{e as data};

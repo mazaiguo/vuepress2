@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-50310398","path":"/Code/UI/VUE/md-enhance/container.html","title":"Custom container","lang":"zh-CN","frontmatter":{"title":"Custom container"},"headers":[{"level":2,"title":"Demo","slug":"demo","link":"#demo","children":[]}],"git":{"updatedTime":1697711588000},"filePathRelative":"Code/UI/VUE/md-enhance/container.md"}');export{e as data};

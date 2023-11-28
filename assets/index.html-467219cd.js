@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as o,a as e,b as a}from"./app-a242af93.js";const r={},c=e("div",{class:"my-footer"},[a("MIT Licensed | Copyright © 2018-present "),e("a",{target:"_blank",href:"https://github.com/mazaiguo/vuepress2"},"JerryMa")],-1),n=[c];function _(i,d){return s(),o("div",null,n)}const f=t(r,[["render",_],["__file","index.html.vue"]]);export{f as default};

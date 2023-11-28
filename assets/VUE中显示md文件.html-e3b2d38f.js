@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-19267413","path":"/Code/UI/VUE/VUE%E4%B8%AD%E6%98%BE%E7%A4%BAmd%E6%96%87%E4%BB%B6.html","title":"VUE中显示md文件","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"安装使用","slug":"安装使用","link":"#安装使用","children":[]}],"git":{"updatedTime":1701162340000},"filePathRelative":"Code/UI/VUE/VUE中显示md文件.md"}');export{e as data};

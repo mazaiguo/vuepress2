@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-71cbb5cd","path":"/Code/JAVA/%E9%97%AE%E9%A2%98.html","title":"问题","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"解决方案","slug":"解决方案","link":"#解决方案","children":[]}],"git":{"updatedTime":1697769852000},"filePathRelative":"Code/JAVA/问题.md"}');export{e as data};

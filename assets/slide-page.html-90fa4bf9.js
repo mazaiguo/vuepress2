@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-acc8465c","path":"/Code/UI/VUE/md-enhance/slide-page.html","title":"Slide Page","lang":"zh-CN","frontmatter":{"title":"Slide Page","icon":"laptop-code","layout":"Slide"},"headers":[],"git":{"updatedTime":1697711588000},"filePathRelative":"Code/UI/VUE/md-enhance/slide-page.md"}');export{e as data};

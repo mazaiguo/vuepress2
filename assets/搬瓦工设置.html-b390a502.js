@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-50d18dd4","path":"/Tool/magic/%E6%90%AC%E7%93%A6%E5%B7%A5%E8%AE%BE%E7%BD%AE.html","title":"搬瓦工设置","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1698049830000},"filePathRelative":"Tool/magic/搬瓦工设置.md"}');export{t as data};

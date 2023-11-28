@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-25324100","path":"/Tool/PC/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95.html","title":"删除右键菜单","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1697681441000},"filePathRelative":"Tool/PC/右键菜单.md"}');export{t as data};

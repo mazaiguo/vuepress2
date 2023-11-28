@@ -1,0 +1,1 @@
+import{_ as t,r as o,o as n,c as a,a as r,d as c,w as l,b as s}from"./app-a242af93.js";const _={};function i(d,m){const e=o("router-link");return n(),a("div",null,[r("li",null,[c(e,{to:"/Tool/GitLab/创建项目.html"},{default:l(()=>[s("创建项目")]),_:1})])])}const f=t(_,[["render",i],["__file","index.html.vue"]]);export{f as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6e11b7a0","path":"/Code/UI/VUE/md-enhance/align.html","title":"Custom alignment","lang":"zh-CN","frontmatter":{"title":"Custom alignment"},"headers":[{"level":2,"title":"Demo","slug":"demo","link":"#demo","children":[]}],"git":{"updatedTime":1697711588000},"filePathRelative":"Code/UI/VUE/md-enhance/align.md"}');export{e as data};
